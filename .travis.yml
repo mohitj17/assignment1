@@ -4,7 +4,7 @@ jdk:
   - oraclejdk7
 script:
   - mvn clean verify 
-   - mvn clean install -U
+   - mvn clean install -X
 branches:
   only:
     - develop
