@@ -22,7 +22,13 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<github.global.server>github</github.global.server>
 	</properties>
-
+	<repositories>
+    <repository>
+      <id>egit</id>
+      <name>Eclipse egit</name>
+      <url>https://repo.eclipse.org/content/repositories/egit-releases/</url>
+    </repository>
+  </repositories>
 	<url>http://devopsfolks.github.io/podam/</url>
 	<licenses>
 		<license>
